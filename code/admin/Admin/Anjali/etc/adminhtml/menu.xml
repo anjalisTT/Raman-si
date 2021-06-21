@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Admin_Anjali::anjali" title="Anjali" module="Admin_Anjali" sortOrder="51" resource="Admin_Anjali::anjali"/>
+        <add id="Admin_Anjali::post" title="Manage Posts" module="Admin_Anjali" sortOrder="10" action="admin_anjali/post" resource="Admin_Anjali::post" parent="Admin_Anjali::anjali"/>
+        <add id="Admin_Anjali::anjali_configuration" title="Configuration" module="Admin_Anjali" sortOrder="99" parent="Admin_Anjali::anjali" action="adminhtml/system_config/edit/section/anjali" resource="Admin_Anjali::anjali_configuration"/>
+    </menu>
+</config>
